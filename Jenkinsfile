@@ -16,7 +16,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git "git@github.com:BodaDeekshitha/AWS.git"
+                            git "https://github.com/BodaDeekshitha/AWS.git"
                         }
                     }
                 }
